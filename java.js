@@ -1,4 +1,3 @@
-<script type="text/javascript">
 function recentpostslist(json) {
  document.write('<ol>');
  for (var i = 0; i < json.feed.entry.length; i++)
@@ -15,5 +14,3 @@ var item = "<li>" + "<a href="+ entryUrl + '" target="_blank">' + entryTitle + "
  }
  document.write('</ol>');
  }
-</script>
-<script src="http://www.mepbfinancial.com/feeds/posts/summary/-/kip%2025?max-results=30&amp;alt=json-in-script&amp;callback=recentpostslist"></script>
