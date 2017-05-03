@@ -16,4 +16,3 @@ var item = "<li>" + "<a href="+ entryUrl + '" target="_blank">' + entryTitle + "
  document.write('</ol>');
  }
 </script>
-<script src="http://www.mepbfinancial.com/feeds/posts/summary/-/kip%2025?max-results=30&alt=json-in-script&callback=recentpostslist"></script>
